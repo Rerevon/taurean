@@ -249,15 +249,23 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .trust-img {
-  width: 45px;
-  height: 45px;
+  width: 55px;
+  height: 55px;
   object-fit: contain;
+  border-radius: 50%;
 }
 
 .trust-card h3 {
   color: var(--dark-gray);
   font-size: 1.1rem;
   font-weight: 600;
+  margin-bottom: var(--spacing-sm);
+}
+
+.trust-card h4 {
+  color: var(--dark-gray);
+  font-size: 0.9rem;
+  font-weight: 400;
   margin-bottom: var(--spacing-sm);
 }
 
