@@ -1038,7 +1038,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .course-col{
   color: white;
-  flex-basis: 51%;
+  flex-basis: 40%;
   border-radius: 10px;
   margin-bottom: 5%;
   text-align: left;
@@ -1052,5 +1052,10 @@ h1, h2, h3, h4, h5, h6 {
   .studentssay img{
     margin-left: 0px;
     margin-right: 15px;
+  }
+
+  .course-col{
+    flex: 40%;
+    padding: 20px 12px;
   }
 }
